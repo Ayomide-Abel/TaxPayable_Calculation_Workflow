@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Ayomide\Documents\BSB\ETL_Alteryx\Assignment\GL.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GL.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Account" size="254" source="File: C:\Users\Ayomide\Documents\BSB\ETL_Alteryx\Assignment\GL.csv" type="V_WString" />
+            <Field name="Doc. Date" size="254" source="File: C:\Users\Ayomide\Documents\BSB\ETL_Alteryx\Assignment\GL.csv" type="V_WString" />
+            <Field name="DocumentNo" size="254" source="File: C:\Users\Ayomide\Documents\BSB\ETL_Alteryx\Assignment\GL.csv" type="V_WString" />
+            <Field name="Type" size="254" source="File: C:\Users\Ayomide\Documents\BSB\ETL_Alteryx\Assignment\GL.csv" type="V_WString" />
+            <Field name="PK" size="254" source="File: C:\Users\Ayomide\Documents\BSB\ETL_Alteryx\Assignment\GL.csv" type="V_WString" />
+            <Field name="Amount in LC" size="254" source="File: C:\Users\Ayomide\Documents\BSB\ETL_Alteryx\Assignment\GL.csv" type="V_WString" />
+            <Field name="Tx" size="254" source="File: C:\Users\Ayomide\Documents\BSB\ETL_Alteryx\Assignment\GL.csv" type="V_WString" />
+            <Field name="LCurr" size="254" source="File: C:\Users\Ayomide\Documents\BSB\ETL_Alteryx\Assignment\GL.csv" type="V_WString" />
+            <Field name="Company" size="254" source="File: C:\Users\Ayomide\Documents\BSB\ETL_Alteryx\Assignment\GL.csv" type="V_WString" />
+            <Field name="Localité" size="254" source="File: C:\Users\Ayomide\Documents\BSB\ETL_Alteryx\Assignment\GL.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Abel.Ayomide.ADEBOYEJO-Alteryx.Workflow.GL</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="78c971e6-4b39-4d40-827b-43ee331cdb4f" />
+      <Telemetry>
+        <PreviousWorkflowId value="53c815cf-da9f-48e4-9755-d1edb3aa0c95" />
+        <OriginWorkflowId value="53c815cf-da9f-48e4-9755-d1edb3aa0c95" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
